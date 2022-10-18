@@ -1,6 +1,6 @@
-#ifdef ONLINE_JUDGE
-#pragma GCC optimize('Ofast')
-#endif
+// #ifdef ONLINE_JUDGE
+// #pragma GCC optimize('Ofast')
+// #endif
 
 #include <bits/stdc++.h>
 using namespace std;
