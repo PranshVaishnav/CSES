@@ -1,6 +1,6 @@
-// #ifdef ONLINE_JUDGE
-// #pragma GCC optimize('Ofast')
-// #endif
+#ifdef ONLINE_JUDGE
+#pragma GCC optimize('Ofast')
+#endif
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -49,7 +49,7 @@ for(int i=0;i<n-1;i++)
 for(int i=0;i<n;i++)
 {
     if(arr[i]==-1)
-    cout<<i+1;
+    cout<< i+1;
 }
 cout<<endl;
 
@@ -64,9 +64,8 @@ fastio();
 auto start1 = high_resolution_clock::now();
 // cout << fixed << setprecision(10);
 int _ = 1, gcode = 1;
-cin >> _;
+//cin >> _;
 while (_--) {
-    gcode++;
 //cout << "Case #" << gcode++ << ": ";
 rogenx();
 }
