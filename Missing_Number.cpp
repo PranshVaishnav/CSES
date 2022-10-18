@@ -64,8 +64,9 @@ fastio();
 auto start1 = high_resolution_clock::now();
 // cout << fixed << setprecision(10);
 int _ = 1, gcode = 1;
-//cin >> _;
+cin >> _;
 while (_--) {
+    gcode++;
 //cout << "Case #" << gcode++ << ": ";
 rogenx();
 }
