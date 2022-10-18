@@ -1,6 +1,6 @@
-#ifdef ONLINE_JUDGE
-#pragma GCC optimize('Ofast')
-#endif
+// #ifdef ONLINE_JUDGE
+// #pragma GCC optimize('Ofast')
+// #endif
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -93,7 +93,7 @@ int32_t main()
     fastio();
     auto start1 = high_resolution_clock::now();
     // cout << fixed << setprecision(10);
-    int _ = 1, gcode = 1;
+    int _ = 1;
     cin >> _;
     while (_--)
     {
